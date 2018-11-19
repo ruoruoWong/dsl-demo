@@ -1,4 +1,4 @@
-// Generated from /Users/jackwong/Documents/Program/ruoruo/dsl-demo/src/main/java/com/tpig/antlr/KiteDsl.g4 by ANTLR 4.7
+// Generated from /Users/jackwong/Documents/Program/ruoruo/dsl-demo/src/main/java/com/tpig/antlr/KiteDsl2.g4 by ANTLR 4.7
 package com.tpig.antlr;
 
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -6,131 +6,131 @@ import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link KiteDslListener},
+ * This class provides an empty implementation of {@link KiteDsl2Listener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
-public class KiteDslBaseListener implements KiteDslListener {
+public class KiteDsl2BaseListener implements KiteDsl2Listener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExpr(KiteDslParser.ExprContext ctx) { }
+	@Override public void enterExpr(KiteDsl2Parser.ExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExpr(KiteDslParser.ExprContext ctx) { }
+	@Override public void exitExpr(KiteDsl2Parser.ExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMultipleCommonFieldName(KiteDslParser.MultipleCommonFieldNameContext ctx) { }
+	@Override public void enterObjectBodyExpr(KiteDsl2Parser.ObjectBodyExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMultipleCommonFieldName(KiteDslParser.MultipleCommonFieldNameContext ctx) { }
+	@Override public void exitObjectBodyExpr(KiteDsl2Parser.ObjectBodyExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterOneCommonFieldName(KiteDslParser.OneCommonFieldNameContext ctx) { }
+	@Override public void enterSingleFieldExpr(KiteDsl2Parser.SingleFieldExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitOneCommonFieldName(KiteDslParser.OneCommonFieldNameContext ctx) { }
+	@Override public void exitSingleFieldExpr(KiteDsl2Parser.SingleFieldExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterCommonFieldName(KiteDslParser.CommonFieldNameContext ctx) { }
+	@Override public void enterObjectFieldExpr(KiteDsl2Parser.ObjectFieldExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitCommonFieldName(KiteDslParser.CommonFieldNameContext ctx) { }
+	@Override public void exitObjectFieldExpr(KiteDsl2Parser.ObjectFieldExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSimpleFieldName(KiteDslParser.SimpleFieldNameContext ctx) { }
+	@Override public void enterNormalFieldExpr(KiteDsl2Parser.NormalFieldExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitSimpleFieldName(KiteDslParser.SimpleFieldNameContext ctx) { }
+	@Override public void exitNormalFieldExpr(KiteDsl2Parser.NormalFieldExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterArrayFieldName(KiteDslParser.ArrayFieldNameContext ctx) { }
+	@Override public void enterClassName(KiteDsl2Parser.ClassNameContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitArrayFieldName(KiteDslParser.ArrayFieldNameContext ctx) { }
+	@Override public void exitClassName(KiteDsl2Parser.ClassNameContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterDefaultExpr(KiteDslParser.DefaultExprContext ctx) { }
+	@Override public void enterFieldName(KiteDsl2Parser.FieldNameContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitDefaultExpr(KiteDslParser.DefaultExprContext ctx) { }
+	@Override public void exitFieldName(KiteDsl2Parser.FieldNameContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFormatExpr(KiteDslParser.FormatExprContext ctx) { }
+	@Override public void enterPackageName(KiteDsl2Parser.PackageNameContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFormatExpr(KiteDslParser.FormatExprContext ctx) { }
+	@Override public void exitPackageName(KiteDsl2Parser.PackageNameContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterDefaultValue(KiteDslParser.DefaultValueContext ctx) { }
+	@Override public void enterPath(KiteDsl2Parser.PathContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitDefaultValue(KiteDslParser.DefaultValueContext ctx) { }
+	@Override public void exitPath(KiteDsl2Parser.PathContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFormatValue(KiteDslParser.FormatValueContext ctx) { }
+	@Override public void enterPathPiece(KiteDsl2Parser.PathPieceContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFormatValue(KiteDslParser.FormatValueContext ctx) { }
+	@Override public void exitPathPiece(KiteDsl2Parser.PathPieceContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
